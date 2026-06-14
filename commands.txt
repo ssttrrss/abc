@@ -1,5 +1,5 @@
 To make symmetric encryption & decryption use these commands:
-openssl enc -aes-256-cbc -salt -in MAIN.txt –out ENCRYPT.enc
+openssl enc -aes-256-cbc -salt -in MAIN.txt -out ENCRYPT.enc
 openssl enc -aes-256-cbc -d -in ENCRYPT.enc -out DECRYPT.txt
 
 To make Asymmetric encryption & decryption use these commands:
